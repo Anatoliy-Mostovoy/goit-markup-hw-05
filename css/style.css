@@ -652,7 +652,8 @@ address{
     color: var(--tc-white);
 }
 
-.project-list:hover .project-action{
+.project-card:hover .project-action,
+.project-card:focus .project-action{
     transform: translateY(0)
 }
 
